@@ -20,7 +20,7 @@ class Settings(BaseSettings):
     ENVIRONMENT: str = "development"
 
     # CORS
-    CORS_ORIGINS: str = "http://localhost:5173,http://127.0.0.1:5173"
+   CORS_ORIGINS: str = "http://localhost:5173,http://127.0.0.1:5173,https://silly-jalebi-36deeb.netlify.app"
 
     # Audit behaviour
     REQUEST_TIMEOUT_SECONDS: float = 10.0
